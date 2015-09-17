@@ -110,4 +110,31 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<scm>
+        <connection>scm:git:ssh://git@bitbucket.org/amitarora249/indiebazaar.git</connection>
+        <developerConnection>scm:git:ssh://git@bitbucket.org/amitarora249/indiebazaar.git</developerConnection>
+        <url>https://bitbucket.org/amitarora249/indiebazaar.git</url>
+  </scm>
+    
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>internal releases</name>
+            <url>http://ec2-52-88-120-17.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>internal snapshots</name>
+            <url>http://ec2-52-88-120-17.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+    
+    <repositories>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://ec2-52-88-120-17.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/thirdparty</url>
+        </repository>
+    </repositories>
 </project>
