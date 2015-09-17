@@ -112,9 +112,9 @@
 	</build>
 	
 	<scm>
-        <connection>scm:git:ssh://git@bitbucket.org/amitarora249/indiebazaar.git</connection>
-        <developerConnection>scm:git:ssh://git@bitbucket.org/amitarora249/indiebazaar.git</developerConnection>
-        <url>https://bitbucket.org/amitarora249/indiebazaar.git</url>
+	     <connection>scm:git:ssh://git@github.com:vaanhit/unknown.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:vaanhit/unknown.git</developerConnection>
+        <url>https://github.com/vaanhit/unknown</url>
   </scm>
     
     <distributionManagement>
