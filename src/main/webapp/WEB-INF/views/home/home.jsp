@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div>
-		Home page
+		This is Home page
 	</div>
 </body>
 </html>
